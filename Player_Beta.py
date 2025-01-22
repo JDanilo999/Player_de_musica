@@ -149,7 +149,7 @@ canvas2.place(x=35,y=365)
 barra_progrecao = canvas2.create_line(20, 25, 320, 25, fill="gray", width=4)
 bola_progrecao = canvas2.create_oval(15, 20, 25, 30, fill="gray")
 
-#preciso consertar o bug da barra. ela para quando o comando proximo ou anterior e executado no meio da musica.
+#preciso consertar o bug da barra. ela para quando o comando proximo ou anterior e executado no meio da musica. Suspeito que seja a variavel threading.Thread
 #preciso otimizar o codigo e deixar mais dinamico
 #preciso adicionar o botao de volume
 #melhorar a aparencia do player
