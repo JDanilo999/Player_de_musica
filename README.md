@@ -45,3 +45,5 @@ Desenvolvimento em python, de um player de musica usando as bibliotecas: Tkinter
    import os
 
    from PIL import Image, ImageTk
+
+3. baixe as imagens dos botoes e o banner no repositorio, depois coloque na mesma pasta do player para evitar error
