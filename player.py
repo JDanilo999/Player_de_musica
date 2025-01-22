@@ -61,10 +61,10 @@ def troca():
 
 def texto_limite(label,texto,limite):
     if len(texto) > limite:
-        texto2 = texto[22:limite] + '...'
+        texto2 = texto[11:limite] + '...'
         label.config(text=texto2)
     else:
-        texto = texto[22:]
+        texto = texto[11:]
         label.config(text=texto)
 
 def auto_musica():
