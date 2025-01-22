@@ -1,6 +1,5 @@
 from tkinter import *
 from tkinter.filedialog import askopenfilename
-import pygame
 from pygame  import *
 import os
 from PIL import Image, ImageTk
@@ -69,8 +68,8 @@ def texto_limite(label,texto,limite):
 
 def auto_musica():
     if play['image'] == str(pause_image):
-        if not pygame.mixer.music.get_busy():
-            pygame.init()
+        if not mixer.music.get_busy():
+            init()
             proximo()
     janela.after(5000,auto_musica)
 #janela
