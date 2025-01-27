@@ -32,7 +32,7 @@ Desenvolvimento em python, de um player de musica usando as bibliotecas: Tkinter
 1. Clone este repositório:
    ```bash
    git clone https://github.com/JDanilo999/Player_de_musica.git
-2.Instale as bibliotecas que foram utilizados no codigo
+ 2.Instale as bibliotecas que foram utilizados no codigo
 
    são elas:  
 
@@ -45,3 +45,5 @@ Desenvolvimento em python, de um player de musica usando as bibliotecas: Tkinter
    import os
 
    from PIL import Image, ImageTk
+   
+3. baixe as imagens dos botoes e o banner no repositorio, depois coloque na mesma pasta do player para evitar error
