@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daea99ea-3827-475b-ab6f-a248e094759e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player_Beta.py" beforeDir="false" afterPath="$PROJECT_DIR$/Player_Beta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="daea99ea-3827-475b-ab6f-a248e094759e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,28 +29,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Player de musica.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Player_Beta.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculadora.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cores.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.player de musica.executor&quot;: &quot;Run&quot;,
-    &quot;Python.player.executor&quot;: &quot;Run&quot;,
-    &quot;Python.playerdemusica.executor&quot;: &quot;Run&quot;,
-    &quot;Python.print.executor&quot;: &quot;Run&quot;,
-    &quot;Python.site com django.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teste.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testecalculadora.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testedoteste.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Merging master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Player de musica.executor": "Run",
+    "Python.Player_Beta.executor": "Run",
+    "Python.calculadora.executor": "Run",
+    "Python.cores.executor": "Run",
+    "Python.ex1.executor": "Run",
+    "Python.ex2.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.player de musica.executor": "Run",
+    "Python.player.executor": "Run",
+    "Python.playerdemusica.executor": "Run",
+    "Python.print.executor": "Run",
+    "Python.site com django.executor": "Run",
+    "Python.teste.executor": "Run",
+    "Python.testecalculadora.executor": "Run",
+    "Python.testedoteste.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.Player_Beta">
     <configuration name="Player de musica" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Projetos PI" />
