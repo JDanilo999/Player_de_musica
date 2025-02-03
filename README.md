@@ -1,5 +1,5 @@
 # Player_de_musica.
-[![Build Status](Beta: 1.0)
+[![Build Status](versão: 2.0)
 License(Livre)
 
 ## Descrição
