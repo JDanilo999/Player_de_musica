@@ -7,9 +7,11 @@ Desenvolvimento em python, de um player de musica usando as bibliotecas: Tkinter
 
 
 ## Demonstração
-![Captura de tela 2025-01-20 153321](https://github.com/user-attachments/assets/6d16c441-d10b-48fc-aefc-c7dd6ce3473e)
+![Captura de tela 2025-02-02 212701](https://github.com/user-attachments/assets/94d79af1-067c-474c-8ab3-2a0052fa4a28)
 
-![Captura de tela 2025-01-20 153523](https://github.com/user-attachments/assets/f37e4407-4f60-4662-989b-00c45e51759d)
+![Captura de tela 2025-02-02 212757](https://github.com/user-attachments/assets/345330d5-429d-48e5-8751-c4314d21f6f4)
+
+![Captura de tela 2025-02-02 212827](https://github.com/user-attachments/assets/e0e81ea4-999f-49fd-aaff-407aae327bcf)
 
 
 
@@ -22,10 +24,10 @@ Desenvolvimento em python, de um player de musica usando as bibliotecas: Tkinter
 - [x] Função que delimita o numero de caracteres no nome de uma musica
 - [x] Função que passa para proxima musica automaticamente quando a musica termina
 - [x] Interface grafica, banner e botões
-- [ ] Adicionar uma barra que acompanha a musica
-- [ ] Adicionar uma barra de volume
+- [x] Adicionar uma barra que acompanha a musica
+- [x] Adicionar uma barra de volume
 - [ ] Adicionar uma personalizaçao do player com temas
-- [ ] melhorar a aparencia do player
+- [x] melhorar a aparencia do player
 
 ## Instalação
 
@@ -36,14 +38,27 @@ Desenvolvimento em python, de um player de musica usando as bibliotecas: Tkinter
 
    são elas:  
 
-   from tkinter import *
+from tkinter import *
 
-   from tkinter.filedialog import askopenfilename
 
-   from pygame  import *
+from pygame  import *
 
-   import os
 
-   from PIL import Image, ImageTk
+import os
+
+
+import threading
+
+
+from tkinter.ttk import Notebook, Treeview
+
+
+from time import sleep
+
+
+from tkinter.filedialog import askopenfilename
+
+
+from PIL import Image, ImageTk
    
 3. baixe as imagens dos botoes e o banner no repositorio, depois coloque na mesma pasta do player para evitar error
