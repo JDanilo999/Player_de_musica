@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daea99ea-3827-475b-ab6f-a248e094759e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Player2.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banner2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gifbanner2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pause.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" />
-    </list>
+    <list default="true" id="daea99ea-3827-475b-ab6f-a248e094759e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
