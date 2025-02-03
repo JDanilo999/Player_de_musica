@@ -162,8 +162,8 @@ altura = 70
 by = 410
 espaco = 20
 
-play_image = PhotoImage(file='play.png')
-pause_image = PhotoImage(file='pause.png')
+play_image = PhotoImage(file='play32.png')
+pause_image = PhotoImage(file='pause_button32.png')
 prox_image = PhotoImage(file='Next32.png')
 ant_image = PhotoImage(file='ant32.png')
 carregar_image = PhotoImage(file='folder32.png')

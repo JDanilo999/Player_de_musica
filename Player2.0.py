@@ -18,6 +18,7 @@ mixer.init()#inicia a musica no pygame
 pasta = ''
 caminho = ''
 cont2 = 0
+pos_musica = 0
 def pastas():
     global pos, playlist, playlist_text, arquivos, th, pasta,caminho,cont2
     try:
@@ -46,8 +47,7 @@ def pastas():
         texto_limite(musica, playlist_text[pos])
     except IndexError:
         print('não funcionou porque a playlist_text está vazia, porfavor selecione a musica >:|')
-
-    cont2 += 1 #evita a criaçao de tree desnecessaria dentro da playlist apos uma nova execuçao da funçao pastas. Alias, eu sei que se o cara adicionar uma musica dentro da pasta quando o app estiver rodando, ela so vai aparecer se fechar o player e abrir dnv
+    cont2 += 1  # evita a criaçao de tree desnecessaria dentro da playlist apos uma nova execuçao da funçao pastas. Alias, eu sei que se o cara adicionar uma musica dentro da pasta quando o app estiver rodando, ela so vai aparecer se fechar o player e abrir dnv
     if cont2 < 2:
         plist()
     if play['image'] == str(play_image):#fiz isso apenas para mudar o botão para a imagem pause, caso esteja com a imagem de play quando executar essa funçao
@@ -167,7 +167,7 @@ def volume_som():
     canvas.tag_bind(botao_circular, "<B1-Motion>", mover)
 
 def item_clicado(Event):
-    global caminho
+    global caminho, pos_musica
     item = musicas.selection()# Obtém o ID do item selecionado
     if item:
         music = musicas.item(item, "values")
@@ -180,9 +180,11 @@ def item_clicado(Event):
                 mixer.music.pause()
                 mixer.music.load(music_sele)
                 mixer.music.play()
+
             else:
                 mixer.music.load(music_sele)
                 mixer.music.play()
+
             if play['image'] == str(play_image):
                 play.config(image=pause_image)
 
