@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daea99ea-3827-475b-ab6f-a248e094759e" name="Changes" comment="" />
+    <list default="true" id="daea99ea-3827-475b-ab6f-a248e094759e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Player2.0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banner2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gifbanner2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Player de musica.executor": "Run",
+    "Python.Player2.0.executor": "Run",
     "Python.Player_Beta.executor": "Run",
     "Python.calculadora.executor": "Run",
     "Python.cores.executor": "Run",
@@ -51,8 +61,8 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Player_Beta">
-    <configuration name="Player de musica" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Player2.0">
+    <configuration name="Player2.0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Projetos PI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,7 +75,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Player de musica.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Player2.0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Player2.0" />
         <item itemvalue="Python.Player_Beta" />
         <item itemvalue="Python.player" />
         <item itemvalue="Python.print" />
         <item itemvalue="Python.teste" />
-        <item itemvalue="Python.Player de musica" />
       </list>
     </recent_temporary>
   </component>
