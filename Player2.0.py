@@ -167,11 +167,12 @@ def volume_som():
     canvas.tag_bind(botao_circular, "<B1-Motion>", mover)
 
 def item_clicado(Event):
-    global caminho, pos_musica
+    global caminho, pos_musica, total_musica
     item = musicas.selection()# Obtém o ID do item selecionado
     if item:
         music = musicas.item(item, "values")
         music_sele = " ".join(str(item) for item in music)# Pega as musicas #transforma a tupla em uma string(claro, a tupla em si não sofre mudança, apenas criou-se uma string com base na tupla e no join
+        total_musica = mixer.Sound(music_sele).get_length()#pequena correção. quando clicava na musica da playlist, a auto barra nao sincronizava. com essa variavel, corrigi.
         texto = music_sele.replace(caminho,'')#fiz isso para obter apenas o nome da musica sem aparecer o caminho
         texto2 = texto[1:]#gambiarra pra tirar a / que ficou :(
         texto_limite(musica, texto2)#funçao responsavel pelo controle dos textos que aparecem
